@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #283149;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header .tagline {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+#about p {
+    line-height: 1.6;
+}
+
+.skills .skill {
+    margin: 15px 0;
+}
+
+.progress-bar {
+    background: #ddd;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #283149;
+    height: 100%;
+    transition: width 0.5s;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+.project-card .btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #283149;
+    color: #fff;
+    text-decoration: none;
+}
+
+form .form-group {
+    margin: 15px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #283149;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
